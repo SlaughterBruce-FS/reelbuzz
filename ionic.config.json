@@ -1,0 +1,7 @@
+{
+  "name": "movieSearch",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}
