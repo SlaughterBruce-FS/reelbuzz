@@ -1,0 +1,19 @@
+.overlay{
+    position: absolute;
+    z-index: 2;
+    width: 95%;
+    height: 40%;
+    background:  linear-gradient(to bottom, transparent 0%, black 100%);
+    bottom: 0;
+}
+
+.pImg {
+    width: 100% !important;
+    object-fit: cover;
+}
+ion-item .item-inner {
+	/* padding-left: unset; */
+	/* padding-right: unset; */
+	/* padding-inline-start: var(--inner-padding-start); */
+	padding-inline-end:  0px !important;
+}

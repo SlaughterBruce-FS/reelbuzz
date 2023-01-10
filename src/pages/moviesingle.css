@@ -1,0 +1,65 @@
+.movieSingle__featured-vid{
+    object-position: center;
+    /* width: 100%; */
+    height: 50vh;
+    transform: scale(1);
+    top: -200;
+}
+.single__info ion-item {
+    --padding-start: 0;
+    --inner-padding-end: 0;
+}
+
+.single__info ion-note{
+    justify-content: end;
+    align-items: flex-end;
+}
+.video-player-frame .video-player-embedded .element{
+    width: 100% !important;
+}
+
+#myId .video-player-frame .video-player-embedded element{
+    width: 100%;
+}
+
+video {
+    /* override other styles to make responsive */
+    width: 100%    !important;
+    height: auto   !important;
+  }
+
+  .container {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    padding-top: 56.25%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+  }
+  
+  /* Then style the iframe to fit in the container div with full height and width */
+  .responsive-iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+ #document div.vp-quality{
+    display: none !important;
+  }
+
+  .tv ion-item{
+    --padding-start: 0;
+    --inner-padding-start: 0;
+  }
+
+  /* .tv img{
+    margin-left: 10px;
+  } */
+
+  .seasoneps ion-item{
+    --padding-start: 0;
+    --inner-padding-start: 0;
+  }
